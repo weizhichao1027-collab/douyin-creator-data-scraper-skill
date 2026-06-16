@@ -1,8 +1,14 @@
 # Douyin Creator Data Scraper Skill
 
+[中文说明](README.zh-CN.md)
+
 Codex/Hermes-style skill for exporting Douyin Creator Center works data to local CSV, JSON manifest, and Markdown brief.
 
 This is a public-safe version of a private workflow. It keeps the core scraper behavior but removes personal Feishu wiki tokens, hard-coded local paths, remote overwrite defaults, and automatic cleanup of user folders.
+
+## 中文概览
+
+这是一个用于导出抖音创作者中心作品数据的 Codex/Hermes 风格 skill。公开版默认只在本地生成 CSV、JSON manifest 和 Markdown 简报，不包含任何个人飞书知识库配置、固定本机路径、Cookie、账号数据或远程覆盖逻辑。远程同步需要作为用户显式配置的后处理步骤。
 
 ## What It Does
 
