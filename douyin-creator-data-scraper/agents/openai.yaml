@@ -1,0 +1,4 @@
+interface:
+  display_name: "Douyin Creator Data Scraper"
+  short_description: "Export Douyin creator metrics to local CSV files"
+  default_prompt: "Use $douyin-creator-data-scraper to export a Douyin Creator Center account works dataset to a local CSV."

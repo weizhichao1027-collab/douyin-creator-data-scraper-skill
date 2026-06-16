@@ -1,0 +1,27 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.env
+.env.*
+*.log
+
+# Local scraper state and secrets
+work/
+state.json
+progress.log
+douyin_cookie.json
+*cookie*.json
+*.sqlite
+*.sqlite3
+
+# Generated data artifacts
+outputs/
+*.csv
+*_raw.json
+*_manifest.json
+*_brief.md
+*_current_run.json
